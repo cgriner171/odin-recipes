@@ -6,8 +6,9 @@
 } 
 
 h1{
-    text-align: center;
-    font-size: 40px
+    text-align: left;
+    font-size: 40px;
+    color: gold;
 }
 
 a{
@@ -17,11 +18,11 @@ a{
 }
 
 .first_block {
-    background-image: url("./images/Cookbook_backgroud.jpg");
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("./images/cookingbackground.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    
-    
-    
-    
-
+    background-attachment: fixed;
 }
